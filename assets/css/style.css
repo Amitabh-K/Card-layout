@@ -1,17 +1,12 @@
 /* Common Styling of All Pages */
 
- body {
-    color: #777777;
-    overflow-y: scroll;
-    position: relative;   
+ body {    
     background-image: url(../images/herringbone.png);
-    
+    /* Medium devices (tablets, 768px and up) The navbar toggle appears at this breakpoint */    
       } 
+
 /* Entire heading Styling including for navigation*/
-      .header {        
-        background-color: #ffffff;
-        border-bottom: 2px solid #cccccc;        
-      }
+
 
     /* Styling name at header*/
 
@@ -23,10 +18,7 @@
 
 
 /* Styling for navigatin as a whole  */
-a {
-  color: #dddddd;
-  text-decoration: none;
-  }
+
 
 
           
@@ -35,9 +27,7 @@ a {
 .aboutme {    
           color: #4aaaa5;
           margin-top: auto;         
-          
-          border-bottom: 2px solid #cccccc;
-          
+          border-bottom: 2px solid #cccccc;          
  }
 
  /* Main content styling */
@@ -47,8 +37,6 @@ a {
  
  
  .container {  
-            
-            background-color: #;            
             margin: 0px auto;
             line-height: 150%;
             margin-top: 2%;
@@ -115,8 +103,7 @@ a {
     }*/
 /* Message box with extra height */
 #message {
-  height: 185px;  
-
+  height: 185px;
 }
 
 /* Portfolio styling */
