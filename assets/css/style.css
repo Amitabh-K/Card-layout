@@ -20,46 +20,27 @@
     color: #ffffff;
     background: #4aaaa5;
     text-align: center;    
-    padding: 30px;
+    
     align-items: flex-start;
     font-size: 2rem;
     font-weight: bold;
       }
 
+      
+
+
       /* Styling for navigatin as a whole*/
 
-      .navigation{        
-        list-style-type: none;
-        color: #777777;
-        display: flex;
-        align-items: flex-end;
-        text-align: center;    
-        }
+
 /* Styling for navigatin as a whole  */
 a {
   color: #dddddd;
   text-decoration: none;
 
   }
-/* Styling navigatin for unordered list*/
-
-       ul {
-        display: flex;
-       }
-
-/* Styling for navigatin as a whole for hover transition */
-
-            .nav{
 
 
-              transition-duration: 1s;
-              -webkit-transition:background-color 2s;
-              transition: background-color 2s,;
-}
-
-
-}
-
+          
 /* Sub-hearder styling  */
 
 .aboutme {    
@@ -85,11 +66,11 @@ a {
  
  
  .container {  
-            max-width: 920px;
+            
             background-color: #ffffff;
             padding:20px;
             margin: 0px auto;
-            line-height: 200%;            
+            line-height: 125%;              
             font-size: 1rem;
             margin-top: 2%;
             height: 480px auto; 
