@@ -60,7 +60,7 @@ a {
     
 
 
-/* Footer section styling */
+/* Footer section styling 
     .footer{
         position: fixed;
         left: 0;
@@ -75,15 +75,13 @@ a {
         align-items: flex-end;
         justify-content: center;
         
-    }
+    }*/
 
     /* Footer content styling */
-
-    .bot {
-     color: #dddddd; 
-     margin-bottom: 0px auto;
-     
-     }
+/*
+    .footer {
+     color: #dddddd;     
+     }*/
 
      /* Contact page Specifics */
 /*
