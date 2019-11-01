@@ -34,8 +34,8 @@ a {
 
 .aboutme {    
           color: #4aaaa5;
-          margin-top: auto;           
-          margin-bottom: 5%;
+          margin-top: auto;         
+          
           border-bottom: 2px solid #cccccc;
           
  }
@@ -86,7 +86,7 @@ a {
      }
 
      /* Contact page Specifics */
-
+/*
      input[type=text], select, textarea   {
       width: 100%;
       padding: 12px;
@@ -97,11 +97,11 @@ a {
       border-radius: 5px;
       
       
-    }
+    }*/
 
     /* Submit button styling no hover */
 
-    input[type="submit"] {
+    /*input[type="submit"] {
       background-color: #4aaaa5;
       color: white;
       padding: 12px      ;
@@ -109,13 +109,13 @@ a {
       border: none;
       cursor: pointer;      
       font-size: .9rem;
-    }
+    }*/
     /* Submit button styling on hover */
-
+/*
     input[type="submit"]:hover {
       background-color: #666666;
       padding: 14px;
-    }
+    }*/
 /* Message box with extra height */
 #message {
   height: 185px;  
