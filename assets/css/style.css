@@ -8,26 +8,60 @@
       @media (min-width: 768px) {  
         [class*="body"] {
           border: hidden;       
-            } 
+            } }
 
 /* Entire heading Styling including for navigation*/
 
-
+    @media (min-width: 768px) {  
+      [class*="h1"] {
+      width: 300px;
+      }}
     /* Styling name at header*/
 
+    @media (min-width: 768px) {  
+      [class*="sticky-top"] {
+        border: blue 2px solid;
+        display: flex;
+        justify-content: center;
 
+               
+      }}
+
+/* Styling for navigatin as a whole*/
+
+@media (min-width: 768px) {  
+  [class*="nav-item"] {
+    border-right: #cccccc; 
+    
+    
+  }}
+
+  @media (min-width: 768px) {  
+    [class*="xbox"] {      
+    justify-content: flex-end;
+    align-self: flex-end;
+    
+    } }
+
+   @media (min-width: 768px) {  
+    [class="nav-link"] {
+      margin-top: 25px;
          
-
-
-      /* Styling for navigatin as a whole*/
-
-
+    }}
 /* Styling for navigatin as a whole  */
 
+ @media (min-width: 768px) {  
+   [class*="ngroup"] {
+     display: flex;            
+     border: green 2px solid;
+     justify-content: space-between;  
+     width: 920px;
+     margin-bottom: 0;
+     
 
+ }    }      
 
-          
-/* Sub-hearder styling  */
+ /* Sub-hearder styling  */
 
 .aboutme {    
           color: #4aaaa5;
@@ -46,24 +80,21 @@
     height: 150px;    
     float: left;
     border: #cccccc; 
-}
+}}
  
 @media (min-width: 768px) {  
   [class*="container"] {
     width: 920px;
     line-height: 200%;    
     border: #cccccc; 
-}
+}}
 
  .container {  
             margin: 0px auto;
             line-height: 200%;
-            margin-top: 2%;
+            margin-top: 3%;
             }
- @media (min-width: 768px) {  
-[class*="p"] {
-margin-bottom:4%
-            }
+
 
 
 
