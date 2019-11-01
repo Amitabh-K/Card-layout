@@ -16,49 +16,41 @@
       [class*="h1"] {
       width: 300px;
       }}
+
+
     /* Styling name at header*/
 
     @media (min-width: 768px) {  
       [class*="sticky-top"] {
-        border: blue 2px solid;
         display: flex;
         justify-content: center;
+        background-color: #ffffff;
 
                
       }}
 
 /* Styling for navigatin as a whole*/
 
-@media (min-width: 768px) {  
-  [class*="nav-item"] {
-    border-right: #cccccc; 
-    
-    
-  }}
+
 
   @media (min-width: 768px) {  
-    [class*="xbox"] {      
-    justify-content: flex-end;
-    align-self: flex-end;
-    
+    [class*="xbox"] {   
+    align-self: flex-end;    
     } }
 
    @media (min-width: 768px) {  
     [class="nav-link"] {
-      margin-top: 25px;
-         
+
     }}
 /* Styling for navigatin as a whole  */
 
  @media (min-width: 768px) {  
    [class*="ngroup"] {
      display: flex;            
-     border: green 2px solid;
      justify-content: space-between;  
      width: 920px;
      margin-bottom: 0;
-     
-
+ 
  }    }      
 
  /* Sub-hearder styling  */
@@ -82,11 +74,22 @@
     border: #cccccc; 
 }}
  
-@media (min-width: 768px) {  
+
+
+
+@media (min-width: 991px) {  
   [class*="container"] {
+    margin: 0;    
     width: 920px;
-    border: #cccccc; 
-    
+    border: #cccccc;  
+}}
+
+
+@media (min-width: 768) {  
+  [class*="container"] {
+    margin: 0;    
+    width: 120px;
+    border: #cccccc;  
 }}
 
  .container {  
