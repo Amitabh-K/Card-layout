@@ -85,14 +85,15 @@
 @media (min-width: 768px) {  
   [class*="container"] {
     width: 920px;
-    line-height: 200%;    
     border: #cccccc; 
+    
 }}
 
  .container {  
             margin: 0px auto;
             line-height: 200%;
             margin-top: 3%;
+            
             }
 
 
