@@ -13,15 +13,10 @@
         border-bottom: 2px solid #cccccc;        
       }
 
-
-        
-        
-        
-      }
     /* Styling name at header*/
 
 
-      h1 {
+    .Masthead {
     color: #ffffff;
     background: #4aaaa5;
     text-align: center;    
