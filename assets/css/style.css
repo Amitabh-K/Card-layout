@@ -5,53 +5,76 @@
     border: darkgrey 1px solid;
     
       }
-      @media (min-width: 768px) {  
+      @media (min-width: 576px) {  
         [class*="body"] {
           border: hidden;       
             } }
 
 /* Entire heading Styling including for navigation*/
 
-    @media (min-width: 768px) {  
+    @media (min-width: 576px) {  
       [class*="h1"] {
-      width: 300px;
+      width: 300;
+      align-self: flex-start;
+
       }}
 
 
     /* Styling name at header*/
 
-    @media (min-width: 768px) {  
+    @media (min-width: 576px) {  
+      [class*="masthead"] {   
+        background-color: #ffffff;
+        padding:0 2% 0 2%;
+            
+      } }
+
+    @media (min-width: 576px) {  
       [class*="sticky-top"] {
         display: flex;
         justify-content: center;
-        background-color: #ffffff;
 
-               
       }}
 
 /* Styling for navigatin as a whole*/
 
 
 
-  @media (min-width: 768px) {  
+  @media (min-width: 576px) {  
     [class*="xbox"] {   
     align-self: flex-end;    
     } }
 
-   @media (min-width: 768px) {  
-    [class="nav-link"] {
-
-    }}
+  
 /* Styling for navigatin as a whole  */
 
- @media (min-width: 768px) {  
+ @media (min-width: 576px) {  
    [class*="ngroup"] {
      display: flex;            
-     justify-content: space-between;  
-     width: 920px;
+     justify-content: space-between;      
      margin-bottom: 0;
  
- }    }      
+ }    }
+ 
+ 
+ @media (min-width: 768px) {  
+  [class*="ngroup"] {
+    display: flex;            
+    justify-content: space-between; 
+    width: 720px;
+    margin-bottom: 0;
+
+}    }  
+
+
+@media (min-width: 992px) {  
+  [class*="ngroup"] {
+    display: flex;            
+    justify-content: space-between; 
+    width: 960px;
+    margin-bottom: 0;
+
+}    } 
 
  /* Sub-hearder styling  */
 
@@ -65,7 +88,7 @@
     
  /* Image styling for desktop*/
 
- @media (min-width: 768px) {  
+ @media (min-width: 576px) {  
   [class*="img"] {
     box-sizing: 48px 48px;    
     width: 150px;
@@ -77,20 +100,15 @@
 
 
 
-@media (min-width: 991px) {  
+@media (min-width: 576) {  
   [class*="container"] {
     margin: 0;    
-    width: 920px;
-    border: #cccccc;  
+    
+    border: #cccccc;
+    
 }}
 
 
-@media (min-width: 768) {  
-  [class*="container"] {
-    margin: 0;    
-    width: 120px;
-    border: #cccccc;  
-}}
 
  .container {  
             margin: 0px auto;
@@ -99,70 +117,6 @@
             
             }
 
-
-
-
-
-/* Paragraphs styling for extr sapace between two */
-
-
-
-
-/* Footer section styling 
-    .footer{
-        position: fixed;
-        left: 0;
-        bottom: 0;
-        width: 100%;      
-        font-size: 12px;
-        background-color: #666666;
-        height: 50px;        
-        border-top: 8px solid #4aaaa5;
-        color:  #777777;        
-        display: flex;
-        align-items: flex-end;
-        justify-content: center;
-        
-    }*/
-
-    /* Footer content styling */
-/*
-    .footer {
-     color: #dddddd;     
-     }*/
-
-     /* Contact page Specifics */
-/*
-     input[type=text], select, textarea   {
-      width: 100%;
-      padding: 12px;
-      margin: 16px auto;
-      box-sizing: border-box;
-      background-color: #ffffff;
-      color:#777777;
-      border-radius: 5px;
-      
-      
-    }*/
-
-    /* Submit button styling no hover */
-
-    /*input[type="submit"] {
-      background-color: #4aaaa5;
-      color: white;
-      padding: 12px      ;
-      border-radius: 5px;
-      border: none;
-      cursor: pointer;      
-      font-size: .9rem;
-    }*/
-    /* Submit button styling on hover */
-/*
-    input[type="submit"]:hover {
-      background-color: #666666;
-      padding: 14px;
-    }*/
-/* Message box with extra height */
 #message {
   height: 185px;
 }
@@ -176,7 +130,7 @@
   margin-left: auto 0;
 }
 
-.item {
+.caption {
   position: absolute;  
   margin: 0 auto;
   text-align: center;  
