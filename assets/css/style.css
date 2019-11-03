@@ -101,7 +101,7 @@
 }}
  
 
-
+/* main contant styling for desktop*/
 
 @media (min-width: 576) {  
   [class*="container"] {
@@ -111,7 +111,7 @@
     
 }}
 
-
+/* main contant styling for small device*/
 
  .container {  
             margin: 0px auto;
@@ -120,18 +120,21 @@
             
             }
 
+/* Contact styling */
+
 #message {
   height: 185px;
 }
 
 /* Portfolio styling */
 
-
+/* main contant styling for small device*/
 .conitainer2 {
   position: relative;
   display: inline-block;
   margin-left: auto 0;
 }
+/* main contant styling for small device*/
 
 .caption {
   position: absolute;  
@@ -149,6 +152,7 @@
   font-size: 1rem;
   
 }
+/* main contant styling for small device*/
 
 .conitainer2 img {
   width: 190px;
