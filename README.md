@@ -1,6 +1,6 @@
 # CSS and Bootstrap Homework: Responsive Portfolio
 
-To create a mobile-first application or add responsive design to portfolio using CSS and Bootstrap.
+To create a mobile-first application and add responsive design to portfolio using CSS and Bootstrap.
 
 ## Getting Started
 
