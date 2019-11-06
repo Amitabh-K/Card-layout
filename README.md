@@ -4,8 +4,23 @@ To create a mobile-first application and add responsive design to portfolio usin
 
 ## Getting Started
 
- This enhancement is for the  for better results on a mobile device.
+This enhancement is for the  for better results on a mobile device.
 This file renders stack up header and images and content for Extra small and small devices while for screen sizes Medium and Large header is spaced horizontly and the images have followed the suit.
+
+### Content
+
+First Opening Page is an 'About Me Page' stored "index.html" file.
+
+- This page has my photograph along with professional brief 
+
+The 'Portfolio page' 
+
+- Is to store my projects.
+
+Finally, the 'Contact Page' allows potential employers to contact me.
+
+- This is a fill out page for: name, email & and descriptive message for me
+
 
 ### Prerequisites
 
